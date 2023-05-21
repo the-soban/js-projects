@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- FONTS: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- CSS: -->
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main-box" id="main-box">
+        <h1 class="heading">Feedback Modal</h1>
+        <div class="ratings-box" id="ratings-box">
+            <div class="rating">
+                <img src="./images/sad-emoji.svg" alt="Dissatisfied Emoji">
+                <small>Dissatisfied</small>
+            </div>
+            <div class="rating">
+                <img src="./images/neutral-emoji.svg" alt="Neutral Emoji">
+                <small>Neutral</small>
+            </div>
+            <div class="rating">
+                <img src="./images/happy-emoji.svg" alt="Satisfied Emoji">
+                <small>Satisfied</small>
+            </div>
+        </div>
+        <textarea class="text-box" id="text-box" rows="4" placeholder="Add your message here"></textarea>
+        <button class="btn" id="btn">Send Response</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
